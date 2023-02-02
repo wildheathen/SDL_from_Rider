@@ -109,7 +109,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)/PrimoProgetto/include/SDL</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)/PrimoProgetto/include/SDL;$(SolutionDir)/PrimoProgetto/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -256,6 +256,7 @@
     <ClInclude Include="include\SDL\SDL_version.h" />
     <ClInclude Include="include\SDL\SDL_video.h" />
     <ClInclude Include="include\SDL\SDL_vulkan.h" />
+    <ClInclude Include="include\stb_image.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
